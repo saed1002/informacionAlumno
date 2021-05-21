@@ -8,8 +8,8 @@ var forma = document.getElementById("forma"),
 
 function procesa(){
  salida.innerHTML=`La boleta del alumno es: ${boleta.value}, 
- El nombre del alumno es: ${nombre.value}, 
- su grupo es ${grupo.value}, 
- Ingreso la meteria ${materia.value}, 
- la fecha que ingreso ${fecha.value}`
+ <br>El nombre del alumno es: ${nombre.value}, 
+ <br>su grupo es ${grupo.value}, 
+ <br>Ingreso la meteria ${materia.value}, 
+ <br>la fecha que ingreso ${fecha.value}`
 }
