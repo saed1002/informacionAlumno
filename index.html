@@ -1,1 +1,51 @@
-
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Informacion Alumnos</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Obtener Informacion de Alumnos</h1>
+  </header>
+  <form id="forma" action="javascript:procesa()">
+    <p><em>El borde azul indica obligatorio.</em></p>
+    <p>
+      <label accesskey="B">Boleta<br>
+        <input name="boleta" type="number" autofocus required>
+      </label>
+    </p>
+    <p>
+        <label accesskey="N">Nombre<br>
+          <input name="nombre" type="text" autofocus required>
+        </label>
+    </p>
+    <p>
+        <label accesskey="G">Grupo<br>
+          <input name="grupo" type="text" autofocus required>
+        </label>
+    </p>
+    <p>
+        <label accesskey="M">Materia<br>
+          <input name="materia" type="text" autofocus required>
+        </label>
+    </p>
+    <p>
+        <label accesskey="F">Fecha<br>
+          <input name="fecha" type="date" autofocus required>
+        </label>
+    </p>
+    <p>
+        <input type="submit" value="Procesar" accesskey="P">
+    </p>
+    </form>
+    <output id="salidaInfo"></output>
+    <footer>
+      Copyright 2021 Eduardo Sanchez Felix
+    </footer>
+    <script src="js/script.js"></script>
+  </body>
+</html>
+ 
